@@ -15,12 +15,7 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route path="/app" element={<AppLayout />}>
-            <Route index element={<Dashboard />} />
-            <Route path="criar" element={<CreateAI />} />
-            <Route path="agendar" element={<Schedule />} />
-            <Route path="automacoes" element={<Automations />} />
-          </Route>
+          <Route path="*" element={<NotFound />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
