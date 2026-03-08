@@ -13,6 +13,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <CursorGlow />
+      <Navbar />
       <Hero />
       <Channels />
       <Features />
