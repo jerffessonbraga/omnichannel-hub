@@ -5,12 +5,6 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
-import AppLayout from "./layouts/AppLayout";
-import Dashboard from "./pages/app/Dashboard";
-import CreateAI from "./pages/app/CreateAI";
-import Schedule from "./pages/app/Schedule";
-import Automations from "./pages/app/Automations";
-
 const queryClient = new QueryClient();
 
 const App = () => (
