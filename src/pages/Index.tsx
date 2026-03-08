@@ -7,10 +7,12 @@ import Pricing from "@/components/landing/Pricing";
 import Testimonials from "@/components/landing/Testimonials";
 import CTASection from "@/components/landing/CTASection";
 import Footer from "@/components/landing/Footer";
+import CursorGlow from "@/components/CursorGlow";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
+      <CursorGlow />
       <Navbar />
       <Hero />
       <Channels />
