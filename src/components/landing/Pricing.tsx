@@ -108,7 +108,7 @@ const Pricing = () => {
                 <span className="text-4xl font-display font-bold text-foreground">{plan.price}</span>
                 <span className="text-muted-foreground text-sm">{plan.period}</span>
               </div>
-              <a href={plan.name === "Enterprise" ? "#contato" : "#checkout"} className="block">
+              <a href={plan.name === "Enterprise" ? "#contato" : "https://pay.kiwify.com.br/SEU_LINK"} className="block" target="_blank" rel="noopener noreferrer">
                 <Button
                   className={`w-full font-semibold mb-6 h-12 ${
                     plan.popular

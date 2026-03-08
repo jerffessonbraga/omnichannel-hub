@@ -67,7 +67,7 @@ const Navbar = () => {
               {dark ? <Sun size={18} /> : <Moon size={18} />}
             </motion.div>
           </button>
-          <a href="#checkout">
+          <a href="https://pay.kiwify.com.br/SEU_LINK" target="_blank" rel="noopener noreferrer">
             <Button className="gradient-cta-btn text-cta-foreground font-semibold px-6 hover:shadow-[0_0_40px_-8px_hsl(var(--cta)/0.5)] transition-all duration-300">
               Começar Agora
             </Button>
@@ -116,7 +116,7 @@ const Navbar = () => {
                 {l.label}
               </motion.a>
             ))}
-            <a href="#checkout" onClick={() => setMobileOpen(false)}>
+            <a href="https://pay.kiwify.com.br/SEU_LINK" target="_blank" rel="noopener noreferrer" onClick={() => setMobileOpen(false)}>
               <Button className="w-full gradient-cta-btn text-cta-foreground font-semibold">Começar Agora</Button>
             </a>
           </motion.div>

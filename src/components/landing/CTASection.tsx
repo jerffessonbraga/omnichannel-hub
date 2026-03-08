@@ -60,7 +60,7 @@ const CTASection = () => {
               viewport={{ once: true }}
               transition={{ delay: 0.5, type: "spring", stiffness: 150 }}
             >
-              <a href="#checkout">
+              <a href="https://pay.kiwify.com.br/SEU_LINK" target="_blank" rel="noopener noreferrer">
                 <Button size="lg" className="gradient-cta-btn text-cta-foreground font-semibold px-10 text-lg transition-all duration-300 h-14 hover:shadow-[0_0_40px_-8px_hsl(var(--cta)/0.5)]">
                   Começar Agora <ArrowRight className="ml-2" size={20} />
                 </Button>
