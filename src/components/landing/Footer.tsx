@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import logo from "@/assets/instaflow-logo.png";
 
 const Footer = () => {
   return (
