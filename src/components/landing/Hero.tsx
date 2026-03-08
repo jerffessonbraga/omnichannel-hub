@@ -117,8 +117,8 @@ const Hero = () => {
               transition={{ duration: 0.7, delay: 0.6 }}
               className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start"
             >
-              <a href="#precos">
-                <Button size="lg" className="gradient-primary text-primary-foreground font-semibold px-8 text-base hover:shadow-glow transition-all duration-300 h-14 text-lg">
+              <a href="#checkout">
+                <Button size="lg" className="gradient-cta-btn text-cta-foreground font-semibold px-8 text-base hover:shadow-[0_0_40px_-8px_hsl(var(--cta)/0.5)] transition-all duration-300 h-14 text-lg">
                   Começar Gratuitamente <ArrowRight className="ml-2" size={20} />
                 </Button>
               </a>

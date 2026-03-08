@@ -60,8 +60,8 @@ const CTASection = () => {
               viewport={{ once: true }}
               transition={{ delay: 0.5, type: "spring", stiffness: 150 }}
             >
-              <a href="#precos">
-                <Button size="lg" className="bg-card text-foreground font-semibold px-10 text-lg hover:bg-card/90 transition-all duration-300 h-14 hover:shadow-[0_0_30px_-5px_rgba(255,255,255,0.3)]">
+              <a href="#checkout">
+                <Button size="lg" className="gradient-cta-btn text-cta-foreground font-semibold px-10 text-lg transition-all duration-300 h-14 hover:shadow-[0_0_40px_-8px_hsl(var(--cta)/0.5)]">
                   Começar Agora <ArrowRight className="ml-2" size={20} />
                 </Button>
               </a>

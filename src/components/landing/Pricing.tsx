@@ -108,15 +108,17 @@ const Pricing = () => {
                 <span className="text-4xl font-display font-bold text-foreground">{plan.price}</span>
                 <span className="text-muted-foreground text-sm">{plan.period}</span>
               </div>
-              <Button
-                className={`w-full font-semibold mb-6 h-12 ${
-                  plan.popular
-                    ? "gradient-primary text-primary-foreground hover:shadow-glow transition-shadow duration-300"
-                    : "bg-muted text-foreground hover:bg-muted/80 border border-border/50"
-                }`}
-              >
-                {plan.name === "Enterprise" ? "Falar com Vendas" : "Começar Agora"}
-              </Button>
+              <a href={plan.name === "Enterprise" ? "#contato" : "#checkout"} className="block">
+                <Button
+                  className={`w-full font-semibold mb-6 h-12 ${
+                    plan.popular
+                      ? "gradient-cta-btn text-cta-foreground hover:shadow-[0_0_40px_-8px_hsl(var(--cta)/0.5)] transition-shadow duration-300"
+                      : "bg-muted text-foreground hover:bg-muted/80 border border-border/50"
+                  }`}
+                >
+                  {plan.name === "Enterprise" ? "Falar com Vendas" : "Começar Agora"}
+                </Button>
+              </a>
               <ul className="space-y-3">
                 {plan.features.map((f, j) => (
                   <motion.li
