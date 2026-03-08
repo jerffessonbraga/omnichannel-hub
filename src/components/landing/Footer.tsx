@@ -14,9 +14,9 @@ const Footer = () => {
           >
             <div className="flex items-center gap-2 mb-4">
               <div className="w-9 h-9 rounded-xl gradient-primary flex items-center justify-center shadow-glow">
-                <span className="text-primary-foreground font-display font-bold text-sm">O</span>
+                <span className="text-primary-foreground font-display font-bold text-sm">IF</span>
               </div>
-              <span className="font-display font-bold text-lg text-foreground">OmniChannel</span>
+              <span className="font-display font-bold text-lg text-foreground">InstaFlow</span>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed">A plataforma omnicanal completa para escalar seu negócio.</p>
           </motion.div>
@@ -69,7 +69,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-border/50 pt-8 text-center text-sm text-muted-foreground">
-          © {new Date().getFullYear()} Plataforma OmniChannel. Todos os direitos reservados.
+          © {new Date().getFullYear()} InstaFlow. Todos os direitos reservados.
         </div>
       </div>
     </footer>

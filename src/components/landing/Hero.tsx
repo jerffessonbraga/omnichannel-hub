@@ -65,7 +65,7 @@ const Hero = () => {
               className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-primary text-sm font-medium mb-8"
             >
               <Zap size={14} className="animate-pulse" />
-              <span>Plataforma Omnicanal White Label</span>
+              <span>InstaFlow — Plataforma Omnicanal</span>
               <span className="w-1.5 h-1.5 rounded-full bg-accent animate-pulse" />
             </motion.div>
 

@@ -52,7 +52,7 @@ const CTASection = () => {
               transition={{ delay: 0.35 }}
               className="text-lg text-primary-foreground/80 mb-10 max-w-2xl mx-auto"
             >
-              Junte-se a mais de 2.000 empresas que já usam a Plataforma OmniChannel para escalar seus resultados.
+              Junte-se a mais de 2.000 empresas que já usam a InstaFlow para escalar seus resultados.
             </motion.p>
             <motion.div
               initial={{ opacity: 0, scale: 0.9 }}
